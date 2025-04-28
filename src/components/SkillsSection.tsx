@@ -16,15 +16,29 @@ const SkillsSection = () => {
       { name: "Python", level: 80 },
       { name: "Node.js", level: 75 },
       { name: "PHP", level: 70 },
+      { name: "C++", level: 60 },
+      { name: "C#", level: 55 },
+      { name: "Backend Scripting with JavaScript", level: 50 },
+
     ],
     frameworks: [
       { name: "Frappe Framework", level: 85 },
       { name: "ERPNext", level: 80 },
       { name: "WordPress", level: 75 },
+
     ],
     database: [
       { name: "MySQL", level: 80 },
       { name: "MariaDB", level: 75 },
+      { name: "MongoDB", level: 70 },
+      { name: "PostgreSQL", level: 60 },
+      { name: "Firebase", level: 50 },
+      { name: "Node.js", level: 55 },
+      { name: "Expression.js", level: 50 },
+      { name: "Redis", level: 50 },
+      { name: "Django ORM", level: 50 },
+      { name: "Mongoose", level: 50 },
+
     ],
     tools: [
       { name: "Git", level: 85 },

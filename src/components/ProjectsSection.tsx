@@ -17,19 +17,19 @@ const ProjectsSection = () => {
   const projects: ProjectType[] = [
     {
       id: 1,
-      title: "Leave Management System",
+      title: "Gym-Management System",
       description: "A comprehensive system built using Frappe Framework that allows employees to apply and manage leave requests efficiently.",
       technologies: ["Frappe", "Python", "JavaScript", "MySQL"],
       category: ["Web App", "ERP"],
-      githubLink: "#"
+      githubLink: "https://github.com/sankusodhi/Gym-Management"
     },
     {
       id: 2,
       title: "Expense Management System",
-      description: "Track and analyze daily expenses with detailed reports and budget planning features.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      description: "Track and analyze daily expenses with detailed reports and budget planning features.And A comprehensive system built using Frappe Framework that allows employees to apply and manage leave requests efficiently.",
+      technologies: ["Python","javascript", "MongoDB","Frappe"],
       category: ["Web App", "Finance"],
-      githubLink: "#"
+      githubLink: "https://github.com/sankusodhi/expensemanager"
     },
     {
       id: 3,
@@ -37,41 +37,42 @@ const ProjectsSection = () => {
       description: "Developed for Frappe Developer Hiring Test. Manages book inventory, borrowing and returns.",
       technologies: ["Frappe", "Python", "JavaScript", "MariaDB"],
       category: ["Web App", "ERP"],
-      githubLink: "#"
+      githubLink: "https://github.com/sankusodhi/-Library-Management-System"
     },
     {
       id: 4,
-      title: "Quiz App (KBC Style)",
+      title: "Academic Quiz App (KBC Style)",
       description: "An interactive quiz application with timer and scoreboard similar to Kaun Banega Crorepati format.",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["Vite", "TypeScript","React", "shadcn-ui", "Tailwind CSS"],
       category: ["Web App", "Education"],
-      githubLink: "#",
-      demoLink: "#"
+      githubLink: "https://github.com/sankusodhi/quiz-ai-nexus",
+      demoLink: "https://quiz-ai-nexus.vercel.app/dashboard"
     },
     {
       id: 5,
-      title: "Hotel Booking Website",
-      description: "Designed for Dantewada district to promote local tourism and simplify hotel booking process.",
-      technologies: ["React", "Node.js", "Tailwind CSS", "MongoDB"],
-      category: ["Web App", "Tourism"],
-      githubLink: "#",
-      demoLink: "#"
+      title: "trendify-commerce-platform",
+      description: "I designed and developed a fully functional E-Commerce Website that delivers a seamless shopping experience to users.",
+      technologies: ["Vite", "TypeScript","React", "shadcn-ui", "Tailwind CSS"],
+      category: ["Mobile App", "Online Store"],
+      githubLink: "https://github.com/sankusodhi/trendify-commerce-platform",
+      demoLink: "https://trendify-commerce-platform.vercel.app/"
     },
     {
       id: 6,
-      title: "Academic Doubt Resolver",
-      description: "Uses Gemini API to automatically email solutions to academic doubts submitted by students.",
-      technologies: ["Python", "Gemini API", "Flask"],
+      title: "Logo Redesign",
+      description: "A comprehensive redesign that aligns with the organization's core values of Trust, Hope, Strength, Support, and Legacy.",
+      technologies: ["Vite", "TypeScript","React", "shadcn-ui", "Tailwind CSS"],
       category: ["Web App", "Education", "AI"],
-      githubLink: "#"
+      githubLink: "https://github.com/sankusodhi/jarurat-care-revamp-project",
+      demoLink: "https://jarurat-care-revamp-project.vercel.app/",
     },
     {
       id: 7,
-      title: "Weekly Mentee Progress Analyzer",
-      description: "Automated reporting system for Navgurukul mentors to track and analyze student progress.",
-      technologies: ["React", "Node.js", "Chart.js", "MySQL"],
-      category: ["Web App", "Education", "Analytics"],
-      githubLink: "#"
+      title: " OLX Car Cover Scraper - Selenium Automation",
+      description: "This project is a web scraper that extracts information about car covers from OLX using Selenium and Python. It fetches product titles, prices, and locations and displays them in a structured table format on the terminal.",
+      technologies: ["Selenium","Python", "BeautifulSoup", "Pandas"],
+      category: ["Web App", "Scripting"],
+      githubLink: "https://github.com/sankusodhi/Affinity-Answer"
     },
     {
       id: 8,
