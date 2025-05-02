@@ -138,7 +138,7 @@ const HeroSection = () => {
     {/* Profile Image */}
     <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/10 z-10">
       <img
-        src="/profile.jpeg"
+        src="/WhatsApp Image 2025-02-05 at 12.22.25 PM.jpeg"
         alt="Sanku Ram Sodhi"
         className="w-full h-full object-cover"
       />
