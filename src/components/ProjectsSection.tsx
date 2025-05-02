@@ -83,6 +83,15 @@ const ProjectsSection = () => {
       githubLink: "#",
       demoLink: "#"
     },
+    {
+      id: 9,
+      title: "Quize-ai-nexus",
+      description: "Quizze-AI-Nexus is an interactive AI-powered quiz platform designed to engage users with smart questions, instant feedback, and a dynamic leaderboard — built for fun and learning.",
+      technologies: ["HTML", "CSS", "JavaScript", "DOM Manipulation", "Timer Logic", "Google Sheets (for score storage)", "Gemini API (for AI responses)"],
+      category: ["Website", "Education"],
+      githubLink: "https://github.com/sankusodhi/quiz-ai-nexus",
+      demoLink: "https://quiz-ai-nexus.vercel.app/dashboard"
+    },
   ];
 
   const allCategories = ["All", ...new Set(projects.flatMap(project => project.category))];

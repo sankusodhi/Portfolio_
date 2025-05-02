@@ -24,7 +24,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "contact@example.com",
+      value:"sankuramsodhi23@navgurukul.org",
       link: "mailto:sankuramsodhi23@navgurukul.org",
     },
     {
@@ -54,7 +54,6 @@ const ContactSection = () => {
     setIsSubmitting(true);
     
     try {
-      // Send form data to email service
       const response = await fetch("https://formsubmit.co/ajax/sankuramsodhi23@navgurukul.org", {
         method: "POST",
         headers: {
@@ -70,7 +69,6 @@ const ContactSection = () => {
       });
 
       if (response.ok) {
-        // Show success toast
         toast({
           title: "Message Sent Successfully!",
           description: "Thank you for reaching out. I'll get back to you soon!",
